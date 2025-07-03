@@ -1,2 +1,29 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Dart 콘솔 전투 RPG 게임
+
+텍스트 기반의 턴제 전투 RPG 게임입니다.  
+플레이어는 캐릭터를 생성하고 다양한 몬스터들과 전투를 펼쳐 승리하게 됩니다.  
+방어, 공격, 몬스터 랜덤 등장, 전투 결과 저장까지!  
+Dart의 객체지향과 파일 입출력 기능을 활용한 실습 프로젝트입니다.
+
+
+
+
+
+
+구현한 기능 내용
+
+1. 사용자/몬스터/게임 클래스 생성
+
+2. 몬스터 리스트화
+
+3. 전투 메서드 생성 후 게임 시작 코드 구현
+
+4. While문을 통해 루프시킬 전체 전투 로직 구현
+
+5. 인덱스를 통한 랜덤 몬스터를 추출한 변수를 생성
+
+6. While문을 통해 행동 패턴 및 전투 결과 생성
+
+7. switch case로 행동 패턴 반복, if문을 통해 전투 결과 반복 작동 (내부 While문)
+
+8. 리스트 확인, break, return 과 if 문으로 상황에 맞게 승리/패배 결정 후 종료
